@@ -1,0 +1,56 @@
+body{background-image: url(http://1.bp.blogspot.com/-jkPejT6LpHA/Us2SOkjQYkI/AAAAAAAAARY/BFfvbabD4tw/s1600/1524011_10152097270513426_1437720471_o.jpg);
+	
+}
+
+.feza{
+	margin: 100px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 2px solid green;
+	position: relative;
+	animation: myAnim 5s linear  infinite;
+
+}
+.gunes{
+	width: 80px;
+	height: 80px;
+	background: yellow;
+	border-radius: 50%;
+	position: relative;
+	margin: 110 auto;
+}
+.ayxett{width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	border-radius: 50%;
+	position:relative;
+	top: -100px;
+	animation: myAnim 5s linear infinite;
+}
+.ay{width: 40px;
+	height: 40px;
+	background: gray;
+	border-radius: 50%;
+	position:relative;
+	top: -2px;
+
+}
+.yer{
+	width: 70px;
+	height: 70px;
+	background: green;
+	border-radius: 50%;
+	position:relative;
+	margin: 0 auto;
+	animation: myAnim 5s liner infinite;
+}
+@keyframes myAnim{
+	0%{transform: rotate(0deg);
+
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+
+}
